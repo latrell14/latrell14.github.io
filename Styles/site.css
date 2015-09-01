@@ -1,0 +1,16 @@
+body {
+	background: red;
+}
+
+
+h1 {
+	margin: 0;
+	font-family: futura, gotham, georgia, helvetica, arial, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 1.5;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+	color: #E89E0C;
+}
