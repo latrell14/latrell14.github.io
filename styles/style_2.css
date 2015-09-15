@@ -1,0 +1,41 @@
+body {
+	background: #D9B32A;
+}
+
+
+h1 {
+	margin: 0;
+	font-family: helvetica;
+	font-style: bold;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: .10em;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+
+h2 {
+	margin: 2;
+	font-family: helvetica;
+	font-style: bold;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 1.5;
+	letter-spacing: .10em;
+	text-align: center;
+}
+
+
+	
+p {
+	margin: 1;
+	font-family: helvetica neue;
+	font-style: light;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #734A12;
+}
