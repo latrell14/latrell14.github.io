@@ -1,16 +1,103 @@
-body {
-	background: red;
+.nav {
+	padding: 0;
+	list-style: none;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	color: white;
+	display: inline-block;
+	position: relative;
+	padding: 1em;
+	background: grey;
+	transition: all .5s linear; 
 }
 
 
+.nav a:hover {
+	color: black;
+	background: white;
+	transition-duration: .3s;
+}
+
+.nav a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0%;
+	height: 5px;
+	background: black;
+	transition: all .3s linear;
+}
+
+.nav a:hover:after {
+	width: 100%;
+}
+
+.nav.center {
+	text-align: center;
+}
+
+.nav.fit {
+	display: table;
+	width: 100%;
+}
+
+.nav.fit li {
+	display: table-cell;
+}
+
+.nav.fit a {
+	display: block;
+}
+
+.bar {
+
+}
+
+#primary-nav {
+
+}
+
 h1 {
-	margin: 0;
-	font-family: futura, gotham, georgia, helvetica, arial, sans-serif;
-	font-style: italic;
+	text-align: center;
+	font-family: kozuka gothic pro;
 	font-weight: normal;
-	font-size: 50px;
-	line-height: 1.5;
-	letter-spacing: .25em;
-	text-transform: uppercase;
-	color: #E89E0C;
+	font-style: light;
+	font-size: 40px;
+}
+
+body {
+	background: #d3d3d3;
+}
+
+p {
+	text-align: center;
+	font-family: kozuka gothic pro;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+}
+
+h2 {
+	text-align: center;
+	font-family: kozuka gothic pro;
+	font-weight: normal;
+	font-style: light;
+	font-size: 15px;
+}
+
+h2 a {
+	color: white;
+	transition: all .3s linear;
+}
+
+h2 a:hover {
+	color: black;
+	transition-duration: .3s;
 }
