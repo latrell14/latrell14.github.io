@@ -1,15 +1,75 @@
+p {
+	text-align: center;
+	font-family: kozuka gothic pro;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	font-family: kozuka gothic pro;
+	font-weight: normal;
+	font-style: light;
+	font-size: 15px;
+}
+
+h2 a {
+	color: white;
+	transition: all .3s linear;
+}
+
+h2 a:hover {
+	color: black;
+	transition-duration: .3s;
+}
+
+body {
+	margin: 0;
+	background: #d3d3d3;
+}
+
+img,
+video,
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	
+}
+
+.clear {
+	overflow: hidden;
+}
+
+/*
+	masthead layout
+	this shows up at the top of the page and includes the navigation.
+*/ 
+
+.masthead {
+	background: black;
+
+}
+
 .nav {
 	padding: 0;
 	list-style: none;
 }
 
 .nav li {
-	display: inline-block;
+	display: block;
 }
 
 .nav a {
 	color: white;
-	display: inline-block;
+	display: block;
 	position: relative;
 	padding: 1em;
 	background: grey;
@@ -43,17 +103,46 @@
 	text-align: center;
 }
 
-.nav.fit {
-	display: table;
-	width: 100%;
+@media (min-width: 500px) {
+	.nav.fit {
+		display: table;
+		width: 100%;
+	}
+
+	.nav.fit li {
+		display: table-cell;
+	}
+
+	.nav.fit a {
+		display: block;
+	}
 }
 
-.nav.fit li {
-	display: table-cell;
+.main-conent {
+	background: grey;
 }
 
-.nav.fit a {
-	display: block;
+.sub-content {
+	background: #71637D;
+}
+
+@media (min-width: 500px) {
+	.main-content {
+		float: left;
+		width: 60%;
+		margin-left: 20%;
+	}
+	
+	.sub-content {
+		float: left;
+		width: 20%;
+		margin-left: -80%;
+		}
+		
+	.third-content {
+		float: left;
+		width: 20%;
+	}
 }
 
 .bar {
@@ -70,34 +159,6 @@ h1 {
 	font-weight: normal;
 	font-style: light;
 	font-size: 40px;
-}
-
-body {
-	background: #d3d3d3;
-}
-
-p {
-	text-align: center;
-	font-family: kozuka gothic pro;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 15px;
-}
-
-h2 {
-	text-align: center;
-	font-family: kozuka gothic pro;
-	font-weight: normal;
-	font-style: light;
-	font-size: 15px;
-}
-
-h2 a {
 	color: white;
-	transition: all .3s linear;
 }
 
-h2 a:hover {
-	color: black;
-	transition-duration: .3s;
-}
