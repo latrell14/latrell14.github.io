@@ -8,6 +8,16 @@ p {
 	color: white;
 }
 
+h1 {
+	text-align: center;
+	font-family: kozuka gothic pro;
+	font-weight: normal;
+	font-style: light;
+	font-size: 40px;
+	color: white;
+}
+
+
 h2 {
 	text-align: center;
 	font-family: kozuka gothic pro;
@@ -24,6 +34,23 @@ h2 a {
 h2 a:hover {
 	color: black;
 	transition-duration: .3s;
+}
+
+h3 {
+	text-align: center;
+	font-family: kozuka gothic pro;
+	font-weight: normal;
+	font-style: bold;
+	font-size: 15px;
+}
+
+h3 a {
+	color: black;
+	font-family: kozuka gothic pro;
+	font-weight: normal;
+	font-style: light;
+	font-size: 10px;
+
 }
 
 body {
@@ -129,21 +156,16 @@ iframe {
 
 @media (min-width: 500px) {
 	.main-content {
-		float: left;
+		float: right;
 		width: 60%;
-		margin-left: 20%;
+		margin-right: 10%;
 	}
 	
 	.sub-content {
 		float: left;
 		width: 20%;
-		margin-left: -80%;
+		margin-left: 0;
 		}
-		
-	.third-content {
-		float: left;
-		width: 20%;
-	}
 }
 
 .bar {
@@ -154,11 +176,4 @@ iframe {
 
 }
 
-h1 {
-	text-align: center;
-	font-family: kozuka gothic pro;
-	font-weight: normal;
-	font-style: light;
-	font-size: 40px;
-	color: white;
-}
+
