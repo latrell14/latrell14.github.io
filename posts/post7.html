@@ -16,20 +16,20 @@
     Normalize
     Eric Meyer's Reset
     -->
-    <link rel="stylesheet" href="css/vendor/sanitize.css">
+    <link rel="stylesheet" href="../css/vendor/sanitize.css">
     <!-- <link rel="stylesheet" href="css/vendor/normalize.css"> -->
     <!-- <link rel="stylesheet" href="css/vendor/reset.css"> -->
 
     <!--
     @NOTE Enable Skeleton's Grid
     -->
-    <link rel="stylesheet" href="css/vendor/skeleton.css">
+    <link rel="stylesheet" href="../css/vendor/skeleton.css">
     
     <!--
     @NOTE Enable Boilerplate's helpers
     This include some simple utility classes
     -->
-    <link rel="stylesheet" href="css/vendor/boilerplate.css">
+    <link rel="stylesheet" href="../css/vendor/boilerplate.css">
     
     <!--
     @NOTE Enable Skeleton's basic styling
@@ -38,7 +38,7 @@
     <!-- <link rel="stylesheet" href="css/vendor/skeleton-styles.css"> -->
 
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     
     <script>
     	/*!
@@ -109,17 +109,19 @@ Licensed MIT
     </script>
     
     <script>
-    	loadCSS('css/custom.css');
+    	loadCSS('../css/custom.css');
     </script>
     
     <noscript>
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../css/custom.css">
 	</noscript>
-	
+    
+   
+
     <!-- Modernizr detects a browsers different capabilities -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
-  <body class="l-home">
+  <body class="l-post-detail">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -134,7 +136,7 @@ Licensed MIT
 			
 				<ul class="site-masthead__primary nav" role="menubar">
 					<li class="primary__item">
-						<a class="primary__link" href="posts/index.html">
+						<a class="primary__link" href="index.html">
 							Posts
 						</a>
 					</li>
@@ -153,18 +155,46 @@ Licensed MIT
     	</div>
     </header>
     
-    
-    <div class="site-content">
-    
-    
+     <div class="site-content">
+    	<article class="entry">
+    		<header class="entry__header">
+    			<div class="container">
+    				<h1 class="entry__heading">
+    					Post 7
+    				</h1>
+    				<p class="entry__intro">
+    					Simplicity
+    				</p>
+    			</div>
+    		</header>
+    		
+    		<div class="entry__content">
+    			
+    			<div class="container">
+    				
+					<p>The UXDesign site has a very simplistic set up. There aren't many complicated transitions or animations. The page is set up as a continous scroll. There is a container which keeps all of the content fit to a certain section of the page, but other than that there isn't too much going on with the site. The main plus that the site has is the banner/navigation at the top of the page. The nav stays at the top throughout the scroll. There are two changes that occur within the banner, the first is a hover effect. When the visitor places their mouse over the banner, it drops down revealing the sites navigation. The second change which occurs, is that the banner shrinks once the page's visitor begins scrolling, as to not seem to dominate and, in turn, distract from the rest of the information on the page.</p>	
+			
+			<a class="post__link" href="http://uxdesign.cc"> 
+			<img class="post__image" src="../images/uxdesign.png" alt="screenshot of uxdesign homepeage">
+			</a>
+				
+			</div>
+			<!-- end .container -->
+			
+			
+	
+    			
+    		</div>
+    		
+    	</article>
     </div>
     
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
     <!--
     @NOTE Google Analytics:
@@ -180,3 +210,20 @@ Licensed MIT
     </script> -->
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -16,20 +16,20 @@
     Normalize
     Eric Meyer's Reset
     -->
-    <link rel="stylesheet" href="css/vendor/sanitize.css">
+    <link rel="stylesheet" href="../css/vendor/sanitize.css">
     <!-- <link rel="stylesheet" href="css/vendor/normalize.css"> -->
     <!-- <link rel="stylesheet" href="css/vendor/reset.css"> -->
 
     <!--
     @NOTE Enable Skeleton's Grid
     -->
-    <link rel="stylesheet" href="css/vendor/skeleton.css">
+    <link rel="stylesheet" href="../css/vendor/skeleton.css">
     
     <!--
     @NOTE Enable Boilerplate's helpers
     This include some simple utility classes
     -->
-    <link rel="stylesheet" href="css/vendor/boilerplate.css">
+    <link rel="stylesheet" href="../css/vendor/boilerplate.css">
     
     <!--
     @NOTE Enable Skeleton's basic styling
@@ -38,7 +38,7 @@
     <!-- <link rel="stylesheet" href="css/vendor/skeleton-styles.css"> -->
 
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     
     <script>
     	/*!
@@ -109,17 +109,19 @@ Licensed MIT
     </script>
     
     <script>
-    	loadCSS('css/custom.css');
+    	loadCSS('../css/custom.css');
     </script>
     
     <noscript>
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../css/custom.css">
 	</noscript>
-	
+    
+   
+
     <!-- Modernizr detects a browsers different capabilities -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
-  <body class="l-home">
+  <body class="l-post-detail">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -134,7 +136,7 @@ Licensed MIT
 			
 				<ul class="site-masthead__primary nav" role="menubar">
 					<li class="primary__item">
-						<a class="primary__link" href="posts/index.html">
+						<a class="primary__link" href="index.html">
 							Posts
 						</a>
 					</li>
@@ -153,18 +155,46 @@ Licensed MIT
     	</div>
     </header>
     
-    
-    <div class="site-content">
-    
-    
+     <div class="site-content">
+    	<article class="entry">
+    		<header class="entry__header">
+    			<div class="container">
+    				<h1 class="entry__heading">
+    					Post 13
+    				</h1>
+    				<p class="entry__intro">
+    					Information & How-To's
+    				</p>
+    			</div>
+    		</header>
+    		
+    		<div class="entry__content">
+    			
+    			<div class="container">
+    				
+					<p>This site provides a very informative .css tutorial. The tutorial helps create a floating box effect. The site teaches one how to create a hover effect which causes the box to create a cast shadow and appear to come towards the visitor's mouse. The site, on it's own, is not very mechanically complicated, but the information it provides is very helpful.</p>	
+			
+			<a class="post__link" href="http://tobiasahlin.com/blog/how-to-animate-box-shadow/">
+			<img class="post__image" src="../images/tobi.png" alt="screenshot of tobiasahlin website">
+			</a>
+				
+			</div>
+			<!-- end .container -->
+			
+			
+	
+    			
+    		</div>
+    		
+    	</article>
     </div>
     
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
     <!--
     @NOTE Google Analytics:
@@ -180,3 +210,20 @@ Licensed MIT
     </script> -->
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
