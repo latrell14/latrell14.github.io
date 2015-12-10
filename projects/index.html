@@ -121,13 +121,13 @@ Licensed MIT
     <!-- Modernizr detects a browsers different capabilities -->
     <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
-  <body class="l-post-detail">
+  <body class="l-posts">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
-     <header class="site-masthead" role="banner">
+    <header class="site-masthead" role="banner">
     	<div class="container">
 			<h1 class="site-masthead__logo">Latrell Mathewson</h1>
 			<button class="site-masthead__toggle" id="js-toggle">Menu</button>
@@ -141,12 +141,12 @@ Licensed MIT
 						</a>
 					</li>
 					<li class="primary__item">
-						<a class="primary__link" href="index.html">
+						<a class="primary__link" href="../posts/index.html">
 							Posts
 						</a>
 					</li>
 					<li class="primary__item">
-						<a class="primary__link" href="../projects/index.html">
+						<a class="primary__link" href="index.html">
 							Projects
 						</a>
 					</li>
@@ -160,42 +160,29 @@ Licensed MIT
     	</div>
     </header>
     
-     <div class="site-content">
-    	<article class="entry">
-    		<header class="entry__header">
-    			<div class="container">
-    				<h1 class="entry__heading">
-    					Post 10
-    				</h1>
-    				<p class="entry__intro">
-    					Homepage Transitions 
-    				</p>
-    			</div>
-    		</header>
-    		
-    		<div class="entry__content">
-    			
-    			<div class="container">
-    				
-					<p>Readymag's Enso website has a very interesting feature. It's fairly simplistic, but still nice. The background of website has a pink-ish image. This background changes when on of the buttons off to the side is pushed. The background image changes to a one which overall color is black. Because of this change, all of the text on the page, which was black before, changes to white in response.</p>	
-			
-			<a class="post__link" href="http://enso.readymag.com">
-			<img class="post__image" src="../images/enso.png" alt="screenshot of Enso homepeage">
-			</a>
-				
-			</div>
-			<!-- end .container -->
-			
-			
-	
-    			
-    		</div>
-    		
-    	</article>
+    
+    <div class="site-content">
+    	<div class="container">
+			<ul class="grid-list">
+				<li class="grid-list__item">
+					<a class="block-overlay" href="project01.html">
+						<img class="block-overlay__src" src="../images/towson_homepage_thumbnail.jpg" alt="">
+						<h3 class="block-overlay__content">Project 1</h3>
+					</a>
+				</li>
+				<li class="grid-list__item">
+					<a class="block-overlay" href="project02.html">
+						<img class="block-overlay__src" src="../images/restaurant_mobile_thumbnail-02.jpg" alt="">
+						<h3 class="block-overlay__content">Project 2</h3>
+					</a>
+				</li>
+				<li class="grid-list__placeholder"></li>
+				<li class="grid-list__placeholder"></li>
+				</ul>
+		</div>
+    
     </div>
     
-    
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
     <script src="../js/plugins.js"></script>
@@ -216,19 +203,4 @@ Licensed MIT
   </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+				

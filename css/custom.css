@@ -54,9 +54,16 @@ body {
 	font-family: 'raleway', helvetica neue, helvetica, arial, sans-serif;
 }
 
+.project__link:link,
+.project__link:active,
+.project__link:visited {
+	color:#99ccff;
+	}
+.project__link {
+	margin-top: 27px;
+}
 
-
-h3 {
+.block-overlay__content {
   font-family: inherit;
   font-weight: 100;
   font-style: inherit;
@@ -65,6 +72,7 @@ h3 {
   margin-top: 27px;
   margin-bottom: 5px;
   padding-left: 30%;
+  color: #808080;
 }
 
 
@@ -84,16 +92,25 @@ h3 {
 }
 
 .site-masthead__menu {
-	background-color: pink;
+	background-color: #99ccff;
 }
 
 .site-masthead__logo {
-	color: pink;
+	color: #99ccff;
 }
 
 .l-posts .site-content,
 .lposts-detail .site-content {
 
+}
+
+.entry__heading {
+	font-weight: 100;
+	color: #808080;
+}
+
+.entry__intro {
+	color: #a6a6a6;
 }
 
 .container {
@@ -104,4 +121,14 @@ h3 {
 	max-width: 75%;
 	margin-top: 27px;
 	margin-left: 50px;
+}
+
+.project__image {
+	max-width: 75%;
+	margin-top: 27px;
+	margin-left: 50px;
+}
+
+.about__intro {
+	color: #99ccff;
 }
